@@ -1,0 +1,39 @@
+footer {
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;   
+    align-items: center;  
+}
+
+footer .title svg {
+    text-align: center;
+    font-size: 40px;
+    color: #f7d354;
+}
+
+footer .title  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer .title h3 {
+    color: white;
+    font-size: 30px;
+    text-transform: none;
+}
+
+.copy {
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    border-top: 2px solid #f7d354;
+}
+
+.copy span {
+    color: white;
+    
+}
