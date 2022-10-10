@@ -1,12 +1,18 @@
-.container {
-  overflow-x: hidden;
+.container h2 {
+  color: #fff;
+}
+
+.title-greet {
+  margin: 5% 0 0 5%;
+  color: aliceblue;
+  font-size: 40px;
 }
 
 .container .title {
   color: #fff;
   font-size: 25px;
-  text-align: center;
-  margin: 4rem 0 1rem;
+  text-align: start;
+  margin: 4rem 0 2rem 4rem;
   text-transform: uppercase;
 }
 
@@ -14,44 +20,36 @@
   color: #f7d354;
 }
 
-.movies-container {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 2rem;
-  width: 90%;
-  margin: 0 auto;
-  gap: 20px;
-  overflow: auto;
-}
-
-.movies-container div {
+.movie-card {
   padding: 10px;
   color: #fff;
+  min-height: 450px;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #111;
 }
 
-.movies-container div img {
-  height: 300px;
+.movie-card img {
+  height: 350px;
 }
 
-.movies-container div img,
-.movies-container div p {
+.movie-card img,
+.movie-card p {
   margin-bottom: 5px;
 }
 
-.movies-container div h2 {
+.movie-card h2 {
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-.movies-container div svg {
+.movie-card svg {
   color: #f7d354;
 }
 
-.movies-container div a {
+.movie-card a {
   background-color: #f7d354;
   border: 2px solid #f7d354;
   border-radius: 4px;
@@ -61,7 +59,7 @@
   font-weight: bold;
 }
 
-.movies-container div a:hover {
+.movie-card div a:hover {
   background-color: transparent;
   color: #f7d354;
 }

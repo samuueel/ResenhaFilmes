@@ -1,10 +1,15 @@
 .main-content {
     position: relative;
+    padding: 20px;
 }
 
 .movies-container {
     width: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .movies-container::-webkit-scrollbar {
@@ -16,7 +21,7 @@
     top: 50%;
 
     width: 100%;
-    padding: 0 40px 0 40px;
+    padding: 0 60px 0 40px;
 
     display: flex;
     justify-content: space-between;

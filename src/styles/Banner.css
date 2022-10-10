@@ -1,0 +1,40 @@
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.banner video { 
+    height: 100vh;
+    object-fit: contain;
+    z-index: -100;
+    position: absolute;
+    top: 0;
+    left: 40vh;
+}
+
+.banner h1 {
+    z-index: 1;
+    padding: 1% 0 0 5%;
+    font-size: 70px;
+    color: #f7d354;
+    font-weight: 900;
+    font-family: 'Open sans', sans-serif;
+}
+
+.banner h3 {
+    z-index: 1;
+    font-size: 60px;
+    padding: 10% 0 0 5%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner h4 {
+    z-index: 1;
+    font-size: 30px;
+    padding: 15% 0 0 5%;
+    color: aliceblue;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+}
